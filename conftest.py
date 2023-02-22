@@ -3,7 +3,7 @@ from selene.support.shared import browser
 
 
 @pytest.fixture()
-def size_window_browser():
+def set_browser_window_size():
     browser.config.window_width = 1280
     browser.config.window_height = 720
 
