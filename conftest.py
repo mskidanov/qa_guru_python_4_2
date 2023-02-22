@@ -13,8 +13,4 @@ def open_browser(size_window_browser):
     browser.open('https://google.com')
 
 
-@pytest.fixture()
-def demo_qa():
-    pass
-
 
